@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vivek Singh's portfolio - Actor, Content Creator, and YouTuber">
+  <title>Vivek Singh - Actor & Content Creator Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Vivek's Vickypannti</div>
+      <div class="right">
+        <ul id="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section class="firstsection" id="home">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="WhatsApp Image 2025-04-25 at 06.38.26.jpeg" alt="Vivek Singh portrait" loading="lazy">
+          </div>
+          <div class="flip-card-back">
+            <img src="vivek.jpeg" alt="Vivek Singh alternate portrait" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="rightsection">
+        <h1>Hello, It's me <span class="highlight">Vivek Singh</span>.</h1>
+        <h2>And I'm a </h2>
+        <span id="typewriter" aria-live="polite"></span>
+
+        <div class="social-icons">
+          <a href="https://www.facebook.com/share/1673LgymYc/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/vickypannti2024?utm_source=qr&igsh=bTM5aTAzY2oxa3lz" target="_blank"
+            rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://youtube.com/@vrpannti?si=dbuaiwLKqoEDKWLV" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm <span class="highlight">Vivek Singh</span>, a versatile actor and passionate content creator who loves
+              storytelling.
+              Whether it's on screen, behind the camera, or creating online, I thrive on expressing emotions, ideas, and
+              creativity.
+              My goal? To make people <em>feel</em> something—whether it's a laugh, a spark of inspiration, or just pure
+              entertainment.
+            </p>
+            <div class="highlight-blocks">
+              <div class="block">📸 Content Strategy</div>
+              <div class="block">🧠 Creative Writing</div>
+              <div class="centered-small">🎥 I act to express, not impress.</div>
+            </div>
+          </div>
+          <div class="about-img">
+            <img src="Vivek 2.jpeg" alt="Vivek Singh professional photo" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Blog Section -->
+    <section class="video-blog-section" id="videos">
+      <div class="container">
+        <h2>My Video Blog</h2>
+        <p class="section-subtitle">Watch my YouTube content</p>
+
+        <div class="video-grid">
+          <!-- Video 1 -->
+          <div class="video-card">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/WRlPylUXBzM" title="Without Donation No Admission video" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>Without Donation No Admission</h3>
+              <div class="video-meta">
+                <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> April 25, 2025</span>
+                <span><i class="fas fa-eye" aria-hidden="true"></i> 224 views</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video 2 -->
+          <div class="video-card">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/RKeLu2qo7BM" title="VR Haider video"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>VR Haider</h3>
+              <div class="video-meta">
+                <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> April 18, 2025</span>
+                <span><i class="fas fa-eye" aria-hidden="true"></i> 84 views</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video 3 -->
+          <div class="video-card">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/VMOV_Y__PUk" title="India Zabra Singer Remix video"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="video-info">
+              <h3>India Zabra Singer Remix</h3>
+              <div class="video-meta">
+                <span><i class="fas fa-calendar-alt" aria-hidden="true"></i> April 10, 2025</span>
+                <span><i class="fas fa-eye" aria-hidden="true"></i> 35 views</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-more">
+          <a href="https://youtube.com/@vrpannti?si=dbuaiwLKqoEDKWLV" target="_blank" rel="noopener noreferrer" class="youtube-btn">
+            <i class="fab fa-youtube" aria-hidden="true"></i> View More on YouTube
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <h2>Get In Touch</h2>
+        <p class="section-subtitle">Have a project in mind or want to collaborate? Let's talk!</p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              <div>
+                <h3>Email</h3>
+                <p>trading.2022expoimpo@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 7428183060</p>             
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Haryana, India</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form action="https://formspree.io/f/xnndnqra" method="POST" class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Mobile Number" aria-label="Mobile Number">
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" rows="5" required aria-label="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Vivek Singh. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Load Typed.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+    // Mobile menu toggle function
+    function toggleMenu() {
+      const navMenu = document.querySelector('.right ul');
+      const hamburger = document.querySelector('.hamburger i');
+      const overlay = document.querySelector('.overlay') || document.createElement('div');
+      
+      // Create overlay if it doesn't exist
+      if (!document.querySelector('.overlay')) {
+        overlay.className = 'overlay';
+        document.body.appendChild(overlay);
+        overlay.addEventListener('click', toggleMenu);
+      }
+    
+      navMenu.classList.toggle('active');
+      overlay.classList.toggle('active');
+      
+      if (navMenu.classList.contains('active')) {
+        hamburger.classList.replace('fa-bars', 'fa-times');
+        document.body.style.overflow = 'hidden';
+      } else {
+        hamburger.classList.replace('fa-times', 'fa-bars');
+        document.body.style.overflow = '';
+      }
+    }
+    
+    // Close menu when clicking on links
+    document.querySelectorAll('.right ul li a').forEach(link => {
+      link.addEventListener('click', () => {
+        const navMenu = document.querySelector('.right ul');
+        const hamburger = document.querySelector('.hamburger i');
+        const overlay = document.querySelector('.overlay');
+        
+        if (navMenu && navMenu.classList.contains('active')) {
+          navMenu.classList.remove('active');
+          overlay.classList.remove('active');
+          hamburger.classList.replace('fa-times', 'fa-bars');
+          document.body.style.overflow = '';
+        }
+      });
+    });
+    
+    // Initialize Typed.js
+    document.addEventListener('DOMContentLoaded', function() {
+      var typed = new Typed("#typewriter", {
+        strings: ["Actor", "Content Creator", "YouTuber", "Part Time Designer"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 1000,
+        loop: true,
+        showCursor: true,
+        cursorChar: '|',
+        smartBackspace: true
+      });
+    
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+
+    // Toggle menu function for mobile
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+</html>
